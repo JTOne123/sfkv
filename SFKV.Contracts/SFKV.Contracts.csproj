@@ -15,7 +15,15 @@
     <PackageTags>ServiceFabric Fabric Microsoft KeyValueStore KeyValue RPC</PackageTags>
     <PackageReleaseNotes>This release use netstandard 2.0 for Service Interface.</PackageReleaseNotes>
     <Version>1.0.1-alpha4</Version>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <PropertyGroup>
     <DocumentationFile>bin\x64\Debug\netstandard2.0\SFKV.Contracts.xml</DocumentationFile>
